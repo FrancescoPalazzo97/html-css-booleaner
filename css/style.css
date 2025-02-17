@@ -54,3 +54,28 @@ figure {
 ul {
     margin: 40px 15px 40px 15px;
 }
+
+table {
+    margin: 0 10px 0 10px;
+}
+
+thead {
+    background-color: blue;
+    color: white;
+}
+
+tbody {
+    background-color: aquamarine;
+}
+
+.even {
+    background-color: white;
+}
+
+.w-50 {
+    width: 50%;
+}
+
+main>p {
+    margin: 30px 0px 30px 0px;
+}
