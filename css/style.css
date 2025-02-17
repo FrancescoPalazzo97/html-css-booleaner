@@ -16,4 +16,33 @@ header {
     width: 275px;
     position: absolute;
     bottom: 15px;
+    margin: 0 10px 0 10px;
+}
+
+main {
+    margin: 30px 10px 30px 10px;
+}
+
+h1 {
+    font-size: 63px;
+}
+
+#special {
+    color: blue;
+}
+
+.gray-text {
+    color: gray;
+}
+
+.font-style-normal {
+    font-style: normal;
+}
+
+.small-text {
+    font-size: 18px;
+}
+
+figure {
+    margin: 20px 0 20px 0;
 }
