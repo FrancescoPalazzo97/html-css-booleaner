@@ -1,3 +1,4 @@
+/* GENERICS */
 * {
     margin: 0;
     padding: 0;
@@ -7,6 +8,9 @@
 body {
     font-size: 26px;
 }
+
+/* HEADER */
+
 
 header {
     height: 145px;
@@ -22,6 +26,8 @@ header {
     bottom: 15px;
     margin: 0 10px 0 10px;
 }
+
+/* MAIN CONTENT */
 
 main {
     margin: 30px 10px 30px 10px;
@@ -51,9 +57,13 @@ figure {
     margin: 20px 0 20px 0;
 }
 
+/* UNORDERED LIST */
+
 ul {
     margin: 40px 15px 40px 15px;
 }
+
+/* TABLE */
 
 table {
     margin: 0 10px 0 10px;
@@ -78,4 +88,31 @@ tbody {
 
 main>p {
     margin: 30px 0px 30px 0px;
+}
+
+/* FOOTER */
+
+footer {
+    margin: 10px;
+}
+
+#image-box-1 {
+    width: 312px;
+    height: 208px;
+    background-image: url(../img/monitor.jpg);
+    margin: 10px 0 10px 0;
+}
+
+#image-box-2 {
+    width: 312px;
+    height: 208px;
+    background-image: url(../img/graph.jpg);
+    margin: 10px 0 10px 0;
+}
+
+.image-box-text {
+    color: white;
+    display: inline-block;
+    padding: 10px;
+    font-weight: 700;
 }
