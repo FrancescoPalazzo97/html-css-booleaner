@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+body {
+    font-size: 26px;
+}
+
 header {
     height: 145px;
     background-color: blue;
@@ -45,4 +49,8 @@ h1 {
 
 figure {
     margin: 20px 0 20px 0;
+}
+
+ul {
+    margin: 40px 15px 40px 15px;
 }
