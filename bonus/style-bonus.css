@@ -4,7 +4,7 @@
     margin: 0; /*Aggiungo queste regole perchè richieste*/
     padding: 0; /*Aggiungo queste regole perchè richieste*/
     box-sizing: border-box; /*Aggiungo queste regole perchè richieste*/
-}
+} 
 
 body {
     font-size: 26px;
@@ -22,16 +22,25 @@ header {
 }
 
 #logo-header {
-    width: 275px;
+    width: 70%;
+    left: 15%;
+    right: 15%;
     position: absolute;
     bottom: 15px;
-    margin: 0 10px 0 10px;
+}
+
+#logo-header img {
+    width: 275px;
 }
 
 /* MAIN CONTENT */
 
 main {
-    margin: 30px 10px 30px 10px;
+    width: 70%;
+    position: relative;
+    left: 15%;
+    right: 15%;
+    margin: 30px 0 30px 0;
 }
 
 h1 {
@@ -62,15 +71,13 @@ figure {
 /* UNORDERED LIST */
 
 ul {
-    margin: 40px 15px 40px 15px;
+    margin: 40px 23px 40px 23px;
 }
 
 /* TABLE */
 
 table {
-    margin: 0 10px 0 10px;
     border-collapse: collapse;
-
 }
 
 thead {
@@ -97,7 +104,10 @@ main>p {
 /* FOOTER */
 
 footer {
-    margin: 10px;
+    width: 70%;
+    position: relative;
+    left: 15%;
+    right: 15%;
 }
 
 #image-box-1 {
