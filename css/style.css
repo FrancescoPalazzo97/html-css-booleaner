@@ -100,6 +100,8 @@ footer {
     margin: 10px;
 }
 
+/* Si può fare una classe unica per entrambi i image-box e inserire l'immagine con un ID */
+
 #image-box-1 {
     width: 312px;
     height: 208px;

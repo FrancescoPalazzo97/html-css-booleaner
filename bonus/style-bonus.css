@@ -110,6 +110,8 @@ footer {
     right: 15%;
 }
 
+/* Si può fare una classe unica per entrambi i image-box e inserire l'immagine con un ID */
+
 #image-box-1 {
     width: 312px;
     height: 208px;
@@ -130,3 +132,14 @@ footer {
     padding: 10px;
     font-weight: 700;
 }
+
+/* 
+
+Soluzione più semplice per centrare il contenuto
+
+.container {
+width: 990px;
+margin: 0 auto;
+}
+
+*/
